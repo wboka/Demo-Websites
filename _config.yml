@@ -1,0 +1,23 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+baseurl: "" # the subpath of your site, e.g. /blog
+brand: WB
+description: > # this means to ignore newlines until "baseurl:"
+    Demo websites by Wayne Boka, website developer. 
+    Wayne is based out of Westfield, PA 16950.
+developer: "Back to BokaSolutions.com"
+developerlink: "http://www.bokasolutions.com"
+email: wayne@bokasolutions.com
+facebook_username: BokaSolutions
+github_username:  wboka
+title: Demo Websites by Wayne Boka, Website Developer
+url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
