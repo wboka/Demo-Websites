@@ -17,7 +17,7 @@ email: wayne@bokasolutions.com
 facebook_username: BokaSolutions
 github_username:  wboka
 title: Demo Websites by Wayne Boka, Website Developer
-url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
+url: "http://demo.bokasolutions.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
