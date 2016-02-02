@@ -1,0 +1,29 @@
+body.simply-blue {
+    background: rgb(33, 97, 171);
+}
+
+.navbar {
+    background: rgb(207, 226, 238);
+    border-color: rgb(255, 255, 255);
+}
+
+.navbar a, .navbar-default .navbar-nav > li > a {
+    color: rgb(33, 97, 171);
+}
+
+.navbar li:hover, .navbar-default .navbar-nav > li:hover {
+    background: rgb(255, 255, 255);
+}
+
+#main {
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
+    color: rgb(33, 97, 171);
+}
+
+footer a {
+    color: rgb(0, 0, 0);
+}

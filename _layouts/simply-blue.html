@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include head.html %}
+      
+        <link rel="stylesheet" href="{{ "/css/simply-blue.css" | prepend: site.url }}" />
+    </head>
+    <body class="simply-blue">
+        <div class="container text-white">
+            <div class="row">
+                <div class="col-xs-6 col-sm-9 col-md-8">
+                    <h1>Company, Inc</h1>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-4 text-right">
+                    <address>
+                        123 Main St.<br />
+                        Anytown, USA<br />
+                        (123) 456-0789
+                    </address>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            {% include demo-header.html %}
+        </div>
+
+        <div class="container" id="main">
+            {{ content }}
+        </div>
+
+        <div class="text-white">
+            {% include footer.html %}
+        </div>
+    </body>
+</html>

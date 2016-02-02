@@ -1,3 +1,11 @@
-#main {
+address {
+    padding: 5px;
+}
+
+.fixed #main {
     margin-top: 55px;
+}
+
+.text-white {
+    color: rgb(255, 255, 255);
 }
